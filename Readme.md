@@ -49,3 +49,33 @@ Nesse modo, o aplicativo fica muito mais rápido.
 | JIT               | AOT                |
 | Hot Reload        | Máxima performance |
 | Compilação rápida | Código otimizado   |
+
+# Declaração de Váriaveis em Dart
+
+## Inferência ou Dedução de Tipos
+O Dart consegue descobrir automaticamente o tipo de váriavel utilizando a inferência ou dedução de tipos, utiliza a declaração **var**.
+
+Ao invés de escrever:
+``` dart
+String nome = "Bruno";
+```
+Você pode escrever:
+``` dart
+var nome = "Bruno";
+```
+
+O compilador irá entender que a váriavel é uma string.
+
+A mesma coisa acontece com os outros tipos de váriaveis, int, boolean, double.
+
+**Devo sempre usar o *var*?**
+Não! Você deve utilizar quando o tipo é óbvio, ex:
+
+``` dart
+var nome = "João";
+```
+
+Outro exemplo:
+``` dart
+var idade = 28;
+```
