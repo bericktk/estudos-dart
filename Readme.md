@@ -1,4 +1,6 @@
 # Módulo 1 – Introdução ao Dart
+
+## Conteúdo
 - O que é Dart
 - Estrutura de um programa
 - Variáveis
@@ -7,6 +9,12 @@
 - dynamic
 - final
 - const
+
+## Objetivos
+- Criar programas simples em Dart.
+- Declarar variáveis.
+- Escolher corretamente entre var, final e const.
+- Entender a inferência de tipos.
 
 ## O que é o Dart?
 
