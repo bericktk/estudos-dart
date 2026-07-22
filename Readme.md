@@ -31,14 +31,14 @@ O aplicativo atualiza quase instantaneamente.
 Sem recompilar todo o projeto.
 
 ### AOT (Ahead-Of-Time)
-Quando chega o momento de publicar o aplicativo:
-''' bash
-dart code <br>
-      ↓<br>
-Compilação<br>
-      ↓<br>
+Quando chega o momento de publicar o aplicativo:<br>
+''' Dart
+dart code
+      ↓
+Compilação
+      ↓
 Código Nativo Android/iOS
-'''
+'''<br>
 Nesse modo, o aplicativo fica muito mais rápido.
 
 ## Comparação
