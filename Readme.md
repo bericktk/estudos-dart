@@ -68,7 +68,7 @@ O compilador irá entender que a váriavel é uma string.
 
 A mesma coisa acontece com os outros tipos de váriaveis, int, boolean, double.
 
-**Devo sempre usar o *var*?**
+**Devo sempre usar o *var*?** <br>
 Não! Você deve utilizar quando o tipo é óbvio, ex:
 
 ``` dart
