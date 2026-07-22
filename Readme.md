@@ -90,3 +90,26 @@ A mesma váriavel agora pode ter valores de outros tipos:
 ``` dart
 valor = 25
 ```
+
+**Isso é bom? Não é?**
+
+Na maioria das vezes não! Exemplo:
+``` dart
+dynamic nome = "Bruno";
+print(nome.toUpperCase());
+
+nome = 20;
+print(nome.toUpperCase());
+```
+
+Na segunda chamada ocorrerá um erro em tempo de execução, pois um int não possui o método toUpperCase().
+
+**E por que usar *dynamic* então?
+
+Há situações em que ele é útil, por exemplo:
+
+- Ler dados de uma API.
+- Trabalhar com JSON antes da conversão para objetos.
+- Interagir com bibliotecas onde o tipo não é conhecido.
+
+Mesmo assim, tenha consciência e use com moderação.
