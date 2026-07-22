@@ -33,13 +33,13 @@ Sem recompilar todo o projeto.
 ### AOT (Ahead-Of-Time)
 Quando chega o momento de publicar o aplicativo:
 
-```Dart
+```
 dart code
       ↓
 Compilação
       ↓
 Código Nativo Android/iOS
-´´´
+```
 
 Nesse modo, o aplicativo fica muito mais rápido.
 
