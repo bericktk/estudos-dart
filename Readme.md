@@ -1,9 +1,12 @@
 # Módulo 1 – Introdução ao Dart
-- História do Dart
-- Como o Dart funciona
-- Compilação JIT x AOT
-- Instalação
+- O que é Dart
 - Estrutura de um programa
+- Variáveis
+- Tipos de dados
+- var
+- dynamic
+- final
+- const
 
 ## O que é o Dart?
 
@@ -68,7 +71,8 @@ O compilador irá entender que a váriavel é uma string.
 
 A mesma coisa acontece com os outros tipos de váriaveis, int, boolean, double.
 
-**Devo sempre usar o *var*?** <br>
+**Devo sempre usar o *var*?**
+
 Não! Você deve utilizar quando o tipo é óbvio, ex:
 
 ``` dart
@@ -104,7 +108,7 @@ print(nome.toUpperCase());
 
 Na segunda chamada ocorrerá um erro em tempo de execução, pois um int não possui o método toUpperCase().
 
-**E por que usar *dynamic* então?
+**E por que usar *dynamic* então?**
 
 Há situações em que ele é útil, por exemplo:
 
@@ -113,3 +117,20 @@ Há situações em que ele é útil, por exemplo:
 - Interagir com bibliotecas onde o tipo não é conhecido.
 
 Mesmo assim, tenha consciência e use com moderação.
+
+## Variáveis Imutaveis em Dart
+### final
+
+Uma variável declarada com **final** pode receber um valor apenas uma única vez. Após a inicialização, qualquer tentativa de atribuir um novo valor resulta em erro de compilação.
+``` dart
+final nome = "Bruno";
+nome = "Carlos";
+```
+
+**Quando usar?** Sempre que um valor será definido apenas uma vez durante a execução.
+
+### const
+Em Dart, a palavra-chave const define uma constante em tempo de compilação, o que significa que o seu valor precisa ser totalmente conhecido antes de o programa rodar. Ela se diferencia de final (que aceita valores definidos em tempo de execução) e de var (que permite mudanças).
+``` dart
+const pi = 3.14 
+```
