@@ -79,3 +79,14 @@ Outro exemplo:
 ``` dart
 var idade = 28;
 ```
+
+## Tipo Dynamic
+No Dart, a declaração do tipo **dynamic** serve para indicar que uma variável pode armazenar qualquer tipo de dado e que o seu valor pode mudar para outro tipo diferente durante a execução do programa. Para usá-la, basta escrever a palavra-chave dynamic antes do nome da variável:
+
+``` dart
+dynamic valor = "João";
+```
+A mesma váriavel agora pode ter valores de outros tipos:
+``` dart
+valor = 25
+```
