@@ -104,3 +104,22 @@ print(20 > 10);
 ``` dart
 print(5 < 8);
 ```
+
+**Maior ou igual (`>=`)**
+``` dart
+print(15 <= 20);
+```
+
+**Menor ou igual (`<=`)**
+``` dart
+print(15 <= 20);
+```
+
+Um erro comum que pode acontecer é a confusão entre os sinais de `=` e `==`. O sinal de `=` é para atribuição, enquanto o sinal de `==` é de igualdade ou comparação. Veja os exemplos abaixo:
+``` dart
+idade = 18; // Atribuição de valores
+```
+
+``` dart
+idade == 18; // Comparação de valores
+```
