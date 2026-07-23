@@ -81,11 +81,26 @@ Cada resposta só pode ser:
 | `>=`     | Maior ou igual |
 | `<=`     | Menor ou igual |
 
-**Igual** `=`
+**Igual `=`**
 ``` dart
 void main() {
   int idade = 18;
 
   print(idade == 18);
 }
+```
+
+**Diferente (`!=`)**
+``` dart
+print(10 != 5);
+```
+
+**Maior que (`>`)**
+``` dart
+print(20 > 10);
+```
+
+**Menor que (`<`)**
+``` dart
+print(5 < 8);
 ```
