@@ -1,6 +1,15 @@
-# Módulo 1 – Introdução ao Dart
-- História do Dart
-- Como o Dart funciona
-- Compilação JIT x AOT
-- Instalação
-- Estrutura de um programa
+# Módulo 2 – Operadores em Dart
+
+## Operadores Aritméticos
+Os operadores aritméticos em Dart executam cálculos matemáticos básicos e avançados, incluindo adição (+), subtração (-), multiplicação (*) e divisão (/).
+
+``` dart
+| Operador | Significado      |
+| -------- | ---------------- |
+| `+`      | Soma             |
+| `-`      | Subtração        |
+| `*`      | Multiplicação    |
+| `/`      | Divisão          |
+| `%`      | Resto da divisão |
+| `~/`     | Divisão inteira  |
+```
