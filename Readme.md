@@ -50,3 +50,33 @@ var divisao = d / e;
 var resultado = a + multiplicacao - divisao + (f * g);
 ```
 O código fica mais legível e mais fácil de manter.
+
+## Operadores Relacionais e Lógicos
+
+### Operadores relacionais
+Os operadores relacionais comparam valores e retornam um resultado booleano (true ou false).
+
+**Analogia**
+Imagine que um porteiro está controlando a entrada de um evento.
+
+Ele recebe algumas perguntas:
+
+- A pessoa é maior de 18 anos?
+- Possui ingresso?
+- Está na lista de convidados?
+
+Cada resposta só pode ser:
+
+- Sim (true)
+- Não (false)
+
+### Operadores Relacionais
+| Operador | Significado    |
+| -------- | -------------- |
+| `==`     | Igual a        |
+| `!=`     | Diferente de   |
+| `>`      | Maior que      |
+| `<`      | Menor que      |
+| `>=`     | Maior ou igual |
+| `<=`     | Menor ou igual |
+
