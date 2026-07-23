@@ -57,6 +57,7 @@ O código fica mais legível e mais fácil de manter.
 Os operadores relacionais comparam valores e retornam um resultado booleano (true ou false).
 
 **Analogia**
+
 Imagine que um porteiro está controlando a entrada de um evento.
 
 Ele recebe algumas perguntas:
@@ -80,3 +81,11 @@ Cada resposta só pode ser:
 | `>=`     | Maior ou igual |
 | `<=`     | Menor ou igual |
 
+**Igual** `=`
+``` dart
+void main() {
+  int idade = 18;
+
+  print(idade == 18);
+}
+```
