@@ -123,3 +123,35 @@ idade = 18; // Atribuição de valores
 ``` dart
 idade == 18; // Comparação de valores
 ```
+
+## Operadores Lógicos
+Os operadores lógicos em Dart servem para combinar expressões booleanas (true ou false). Os três principais são o **E lógico (&&)**, o **OU lógico (||)** e o **NÃO lógico (!)**
+
+### Operador E (&&)
+O operador lógico E (&&) só retorna true se ambas as condições forem verdadeiras.
+```dart
+var idade = 18;
+var temCarteira = true;
+
+if (idade >= 18 && temCarteira) {
+  print("Pode dirigir");
+}
+```
+
+### Operador OU (||)
+O operador lógico OU (||) retorna true se pelo menos uma das condições for verdadeira.
+```dart
+var temCarteira = true;
+
+if (idade >= 18 && temCarteira) {
+  print("Pode dirigir");
+}
+```
+
+### Operador NÃO (!)
+O operador lógico NÃO (!) inverte o valor de uma expressão booleana.
+```dart
+if (!temCarteira) {
+  print("Não pode dirigir");
+}
+```
