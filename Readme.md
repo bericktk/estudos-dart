@@ -143,7 +143,7 @@ O operador lógico OU (||) retorna true se pelo menos uma das condições for ve
 ```dart
 var temCarteira = true;
 
-if (idade >= 18 && temCarteira) {
+if (idade >= 18 || temCarteira) {
   print("Pode dirigir");
 }
 ```
