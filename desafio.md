@@ -38,3 +38,21 @@ O operador **~/** existe para retornar o quociente inteiro de uma divisão, desc
 - Descobrir quantas caixas completas são necessárias para armazenar itens.
 - Dividir alunos em grupos completos.
 - Obter índices inteiros para listas.
+
+----------------------------------------------------------------------------------------------------
+# Mini desafio
+
+## Crie um programa que declare:
+- nome
+- idade
+- possuiCarteira
+
+**Depois exiba:**
+
+- O resultado de idade >= 18.
+- O resultado de possuiCarteira == true.
+- O resultado de idade >= 18 && possuiCarteira.
+- O resultado de idade < 18 || !possuiCarteira.
+
+-----------------------------------------------------------------------------------------------------
+
